@@ -1,0 +1,25 @@
+sledovana kriteria:
+  elektřina
+  plyn
+  topení
+  spotřebiče
+  textil
+  nábytek
+  odpad
+    plasty
+    papir
+    sklo
+    hlinik
+    biodpad
+    smišeny
+  voda
+  potraviny
+    jídlo
+    pití
+  lidi
+    cigarety
+  zviřata
+  cestování
+    počet aut
+    
+  
