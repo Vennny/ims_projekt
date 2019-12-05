@@ -1,8 +1,11 @@
+pocet obyvatel v CR: 10668641
+Tridi: 73% obyvatel
+Pocet tridicich obyvatel: 7788108
 prumerny pocet clenu domacnosti: 2,36 osoby
 vyprodukovany komunalni odpad v CR: 5 782 000 000 kg
 1 osoba vyprodukuje: cca 542 kg komunalniho odpadu rocne
 
-komunalni odpad se sklada:
+komunalni odpad se sklada (vyprodukuje kazdy clovek):
   a) Papír:             8,7%    -> 0,087*542 = 47,154  kg
   b) Plasty:            10,1%   -> 0,101*542 = 54,742  kg
   c) Sklo:              4.0%    -> 0,040*542 = 21,680  kg
@@ -13,6 +16,41 @@ komunalni odpad se sklada:
   h) Elektro:           0,6%    -> 0,006*542 = 3,252‬   kg
   i) Bioodpad:          25,6%   -> 0,256*542 = 138,752 kg (listí, drobné vetvičky, ovoce, ...)
   j) Spalitelný odpad   24,1%   -> 0,241*542 = 130,622‬ kg (větve, nábytek, ...)
-  i) Podsítná frakce    20,4%   -> 0,204*542 = 110,568‬ kg (věci které projdou sítem o velikosti 40x40mm např. tráva, kapesníčky, ale i baterie. Nelze dále recyklovat protože obsahují prvky toxických částí, teď je otázka, jak se k tomu postavit)
+  k) Podsítná frakce    20,4%   -> 0,204*542 = 110,568‬ kg (věci které projdou sítem o velikosti 40x40mm např. tráva, kapesníčky, ale i baterie. Nelze dále recyklovat protože obsahují prvky toxických částí, teď je otázka, jak se k tomu postavit)
+/*          tohle jse vsechno co vyhodime do popelnice           */
   
+  
+(pocet vytrideneho odpadnu / pocet obyvatel)
+Rocne kazda osoba jiz ted roztridi: 
+  a) Papír                21,089 kg
+  b) Plast                13,966 kg
+  c) Sklo                 13,028 kg
+  d) Kovy                 14 kg
+  e) Textil               
+  f) Mineralni odpad      
+  g) Nebezpečný odpad     
+  h) Elektro              8,577 kg
+  i) Bioodpad             
+  j) Spalitelný odpad     
+  k) Podsítná frakce      ??? (zalezi jestli budem naprosto striktne tridit - data se asi nepovede dohledat)
+/*          tohle jse vsechno co vyhodime do kontejneru           */
+  
+(pocet vytrideneho odpadnu / pocet obyvatel kteri tridi)
+Rocne kazda osoba, ktera tridi, jiz ted roztridi: 
+  a) Papír                28,890 kg
+  b) Plast                19,131 kg
+  c) Sklo                 17,847 kg
+  d) Kovy                 19,178 kg
+  e) Textil               
+  f) Mineralni odpad      
+  g) Nebezpečný odpad     
+  h) Elektro              11,750 kg
+  i) Bioodpad             
+  j) Spalitelný odpad     
+  k) Podsítná frakce      ??? (zalezi jestli budem naprosto striktne tridit - data se asi nepovede dohledat)
+/*          tohle jse vsechno co vyhodime do kontejneru           */
+  
+https://www.samosebou.cz/2019/05/26/vysledky-trideni-a-recyklace-odpadu-za-rok-2018/
+https://www.denik.cz/ekonomika/kilogram-tydne-cesi-vloni-vytvorili-novy-rekord-v-trideni-odpadu-20190506.html
+https://ekolist.cz/cz/zpravodajstvi/zpravy/podil-vytrideneho-elektroodpadu-se-v-cesku-zvysuje
   
