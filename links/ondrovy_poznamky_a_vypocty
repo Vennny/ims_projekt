@@ -12,7 +12,7 @@ komunalni odpad se sklada (vyprodukuje kazdy clovek):
   d) Kovy:              2,5%    -> 0,025*542 = 13,550  kg
   e) Textil:            2,1%    -> 0,021*542 = 11,382  kg
   f) Minerální odpad:   1,7%    -> 0,017*542 = 9,214   kg (př: půda, ale taky cihly :D)
-  g) Nebezpečný odpad:  0,3%    -> 0,003*542 = 1,626   kg (př. rtuť, pesticidy)
+  g) Nebezpečný odpad:  0,3%    -> 0,003*542 = 1,626   kg (př. rtuť, pesticidy, léky, baterie)
   h) Elektro:           0,6%    -> 0,006*542 = 3,252‬   kg
   i) Bioodpad:          25,6%   -> 0,256*542 = 138,752 kg (listí, drobné vetvičky, ovoce, ...)
   j) Spalitelný odpad   24,1%   -> 0,241*542 = 130,622‬ kg (větve, nábytek, ...)
@@ -28,7 +28,7 @@ Rocne kazda osoba jiz ted roztridi:
   d) Kovy                 14 kg
   e) Textil               0,3 kg
   f) Mineralni odpad      
-  g) Nebezpečný odpad     
+  g) Nebezpečný odpad     0,428 kg
   h) Elektro              8,577 kg
   i) Bioodpad             130 kg (svozove biopopelnice a biokontejnery)
   j) Spalitelný odpad     
@@ -43,7 +43,7 @@ Rocne kazda osoba, ktera tridi, jiz ted roztridi:
   d) Kovy                 19,178 kg
   e) Textil               0,410 kg
   f) Mineralni odpad      
-  g) Nebezpečný odpad     
+  g) Nebezpečný odpad     0,586 kg
   h) Elektro              11,750 kg
   i) Bioodpad             178,082 kg
   j) Spalitelný odpad     
