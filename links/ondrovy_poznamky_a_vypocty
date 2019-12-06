@@ -66,4 +66,6 @@ ______________________________________________________________
 Program v musi pocitat nasledujici situace:
   a) soucasny stav - musime zahrnout komunalni odpad i odpad odevzdany k recyklovani abychom zjistili kolik CO2 se produkuje nyni
   b) testovaci stav - z komunalniho odpadu zbude pouze podsitna frakce, zbytek se prida k jiz ted recyklovanemu odpadu (ted je otazka jestli pouzit cisla z plosne recyklace nebo jen ze 73% lidi ktere tridi - ondra je za 73% a v programu navysime pocet recyklujicich lidi na 100%)
+______________________________________________________________
+Smesny odpad CO2: https://www.ipcc-nggip.iges.or.jp/public/gp/bgp/5_3_Waste_Incineration.pdf
   
