@@ -60,4 +60,10 @@ https://www.msid.cz/files/145/vrbov_martina_%20nakldn%20s%20komunlnmi%20a%20dalm
 https://www.sako.cz/upload/1559039549.pdf
 
 mineralni odpad beru z vyrocni zpravy sako 2018
+
+______________________________________________________________
+
+Program v musi pocitat nasledujici situace:
+  a) soucasny stav - musime zahrnout komunalni odpad i odpad odevzdany k recyklovani abychom zjistili kolik CO2 se produkuje nyni
+  b) testovaci stav - z komunalniho odpadu zbude pouze podsitna frakce, zbytek se prida k jiz ted recyklovanemu odpadu (ted je otazka jestli pouzit cisla z plosne recyklace nebo jen ze 73% lidi ktere tridi - ondra je za 73% a v programu navysime pocet recyklujicich lidi na 100%)
   
