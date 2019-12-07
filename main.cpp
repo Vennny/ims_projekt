@@ -254,7 +254,7 @@ int main (int argc, char *argv[])
 	    }
   	}
 
-  	cout << endl << "Options:" << endl;
+  	cout << endl << "Values set:" << endl;
   	cout << endl;
   	cout << "members: " << members << endl;
   	cout << "duration: " << duration << " day(s)" << endl;
