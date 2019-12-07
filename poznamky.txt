@@ -1,3 +1,16 @@
+počet lidí
+doba
+procenta  plastu
+          skla
+          papíru
+          kovu
+          spalitelný
+          textil
+          mineralni odpad
+          nebezpečny
+          elektro
+          bio 
+
 sledovana kriteria:
   elektřina
   plyn
@@ -21,5 +34,3 @@ sledovana kriteria:
   zviřata
   cestování
     počet aut
-    
-  
