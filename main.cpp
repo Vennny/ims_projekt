@@ -23,7 +23,7 @@ double burnable = 18.4;
 
 void printHelp(){
 	cout << endl;
-	cout << "This program outputs the overall carboon footprint of waste made by a household based on the percentage of individual types of waste recycled." << endl;
+	cout << "This program outputs the average carboon footprint of waste made by the selected amount of households based on the percentage of individual types of waste recycled." << endl;
 	cout << endl;
 	cout << "OPTIONS:" << endl;
 	cout << endl;
