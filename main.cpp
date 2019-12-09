@@ -306,8 +306,8 @@ double municipalWasteInHousehold = 0;
 class Waste : public Process {
 	void Behavior() {
 		float wasteType = Uniform(0,100);
-		//plastic waste = 8.7 % chance
-		if (wasteType < 8.7) {
+		//plastic waste = 10.1 % chance
+		if (wasteType < 10.1) {
 			if (Uniform(0,100) < plastic){
 				//1g of recycled plastic produces the equivalent of 1.3 grams of CO2
 				//only 60 % of seperated plastic are usable for recycling
@@ -324,7 +324,7 @@ class Waste : public Process {
 				totalFootprint += wastePerTenMinutesInHousehold * 2.1;
 			}
 		} 
-		//paper waste = 10.1 % chance
+		//paper waste = 8.7 % chance
 		else if (wasteType < 18.8){
 			if (Uniform(0,100) < paper){
 				//1g of recycled paper produces the equivalent of 0.7 grams of CO2
