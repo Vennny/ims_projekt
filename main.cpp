@@ -309,7 +309,7 @@ class Waste : public Process {
 		//plastic waste = 10.1 % chance
 		if (wasteType < 10.1) {
 			if (Uniform(0,100) < plastic){
-				//1g of recycled plastic produces the equivalent of 1.3 grams of CO2
+				//1g of recycled plastic produces the equivalent of 1.3 grams of CO2e
 				//only 60 % of seperated plastic are usable for recycling
 				totalFootprint += wastePerTenMinutesInHousehold * 0.6 * 1.3;
 
@@ -327,7 +327,7 @@ class Waste : public Process {
 		//paper waste = 8.7 % chance
 		else if (wasteType < 18.8){
 			if (Uniform(0,100) < paper){
-				//1g of recycled paper produces the equivalent of 0.7 grams of CO2
+				//1g of recycled paper produces the equivalent of 0.7 grams of CO2e
 				totalFootprint += wastePerTenMinutesInHousehold * 0.7;
 
 			} else {
@@ -340,7 +340,7 @@ class Waste : public Process {
 		//glass waste = 4 % chance
 		else if (wasteType < 22.8){
 			if (Uniform(0,100) < glass){
-				//1g of recycled glass produces the equivalent of 0.54 grams of CO2
+				//1g of recycled glass produces the equivalent of 0.54 grams of CO2e
 				totalFootprint += wastePerTenMinutesInHousehold * 0.54;
 
 			} else {
@@ -353,7 +353,7 @@ class Waste : public Process {
 		//metal waste = 2.5 % chance
 		else if (wasteType < 25.3){
 			if (Uniform(0,100) < metal){
-				//1g of recycled metal produces the equivalent of 0.4 grams of CO2
+				//1g of recycled metal produces the equivalent of 0.4 grams of CO2e
 				totalFootprint += wastePerTenMinutesInHousehold * 0.4;
 
 			} else {
@@ -366,7 +366,7 @@ class Waste : public Process {
 		//fabric waste = 2.1 % chance
 		else if (wasteType < 27.4){
 			if (Uniform(0,100) < fabric){
-				//1g of recycled fabric produces the equivalent of 32.5 grams of CO2
+				//1g of recycled fabric produces the equivalent of 32.5 grams of CO2e
 				totalFootprint += wastePerTenMinutesInHousehold * 32.5;
 
 			} else {
@@ -379,7 +379,7 @@ class Waste : public Process {
 		//mineral waste = 1.7 % chance
 		else if (wasteType < 29.1){
 			if (Uniform(0,100) < mineral){
-				//1g of recycled minerals produces the equivalent of 0.0027 grams of CO2
+				//1g of recycled minerals produces the equivalent of 0.0027 grams of CO2e
 				totalFootprint += wastePerTenMinutesInHousehold * 0.0027;
 
 			} else {
@@ -392,7 +392,7 @@ class Waste : public Process {
 		//dangerous waste = 0.3 % chance
 		else if (wasteType < 29.4){
 			if (Uniform(0,100) < dangerous){
-				//1g of recycled dangerous waste produces the equivalent of 2.494 grams of CO2
+				//1g of recycled dangerous waste produces the equivalent of 2.494 grams of CO2e
 				totalFootprint += wastePerTenMinutesInHousehold * 2.494;
 
 			} else {
@@ -405,7 +405,7 @@ class Waste : public Process {
 		//electronic waste = 0.6 % chance
 		else if (wasteType < 30){
 			if (Uniform(0,100) < electro){
-				//1g of recycled electronic waste produces the equivalent of 23.567 grams of CO2
+				//1g of recycled electronic waste produces the equivalent of 23.567 grams of CO2e
 				totalFootprint += wastePerTenMinutesInHousehold * 23.567;
 				//90 % of seperated eletronical waste is actually recycled
 				totalFootprint += wastePerTenMinutesInHousehold * 0.9 * 23.567;
@@ -425,7 +425,7 @@ class Waste : public Process {
 		//bio waste = 25.6 % chance
 		else if (wasteType < 55.6){
 			if (Uniform(0,100) < bio){
-				//1g of recycled biological waste produces the equivalent of 0.05 grams of CO2
+				//1g of recycled biological waste produces the equivalent of 0.05 grams of CO2e
 				totalFootprint += wastePerTenMinutesInHousehold * 0.05;
 
 			} else {
@@ -438,7 +438,7 @@ class Waste : public Process {
 		//burnable waste = 24.1 % chance
 		else if (wasteType < 79.7){
 			if (Uniform(0,100) < burnable){
-				//1g of recycled burnable waste produces the equivalent of 1.9 grams of CO2
+				//1g of recycled burnable waste produces the equivalent of 1.9 grams of CO2e
 				totalFootprint += wastePerTenMinutesInHousehold * 1.9;
 
 			} else {
@@ -481,7 +481,7 @@ int main (int argc, char *argv[])
 		(new WasteGenerator)->Activate();
 		Run();
 
-		//the CO2 equivalent emission of municipal waste is between 0.7g and 1.2g CO2 per gram of waste
+		//the CO2e equivalent emission of municipal waste is between 0.7g and 1.2g CO2e per gram of waste
 		while (exponential < 0.7 || exponential > 1.2){
 			exponential = Exponential(0.95);
 		}
@@ -491,7 +491,7 @@ int main (int argc, char *argv[])
 	
 	double averageTotalFootprint = totalFootprint / households;
 
-	cout << "Average total carboon footprint per household is:" << endl << averageTotalFootprint << " kg of CO2" << endl;
+	cout << "Average total carboon footprint per household is:" << endl << averageTotalFootprint << " kg of CO2e" << endl;
 
 	return 0;
 }
