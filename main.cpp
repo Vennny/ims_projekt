@@ -448,7 +448,7 @@ class Waste : public Process {
 				totalFootprint += wastePerTenMinutesInHousehold * 1.127;
 			}
 		}
-		// non recyclable undersized waste, e.g. dust
+		// non recyclable undersized waste, e.g. dust = 20.3 % chance
 		else{
 			municipalWasteInHousehold += wastePerTenMinutesInHousehold;
 		}
