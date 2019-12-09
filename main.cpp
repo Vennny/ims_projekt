@@ -7,7 +7,7 @@ using namespace std;
 
 // default values
 int households = 1;
-double members = 2.6;
+double members = 2.36;
 double durationInDays = 1.0;
 double plastic = 20.3;
 double paper = 30.9;
