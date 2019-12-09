@@ -491,7 +491,7 @@ int main (int argc, char *argv[])
 	
 	double averageTotalFootprint = totalFootprint / households;
 
-	cout << "Average total carboon footprint is:" << endl << averageTotalFootprint << " kg of CO2" << endl;
+	cout << "Average total carboon footprint per household is:" << endl << averageTotalFootprint << " kg of CO2" << endl;
 
 	return 0;
 }
